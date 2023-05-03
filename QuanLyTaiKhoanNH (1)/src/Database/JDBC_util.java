@@ -34,7 +34,7 @@ public class JDBC_util {
 	 try {
 		
 	
-	    BufferedReader br = new BufferedReader(new FileReader("C:\\\\Users\\\\Dzung\\\\OneDrive - Đại học Giao thông vận tải\\\\BTL-Quản Lý tài khoản  Ngân Hàng\\\\Desktoplink_sql.txt"));
+	    BufferedReader br = new BufferedReader(new FileReader("C:\\\\Users\\\\Dzung\\\\OneDrive - Đại học Giao thông vận tải\\\\Desktop\\\\BTL-Quản Lý tài khoản  Ngân Hàng\\\\link_sql.txt"));
 		//String url ="jdbc:mySQL://localhost:3306/qltknh";
 		String url= br.readLine();
 		String username = br.readLine();
